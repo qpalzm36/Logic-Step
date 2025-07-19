@@ -1,0 +1,24 @@
+{
+    "total_problems_evaluated": 97,
+    "final_answer_accuracy": "25.77%",
+    "avg_holistic_step_accuracy_binary": "7.14%",
+    "avg_holistic_step_accuracy_graded (>=4/5)": "13.03%",
+    "avg_matched_steps_fidelity_binary": "15.96%",
+    "avg_matched_steps_fidelity_graded (>=4/5)": "28.52%",
+    "avg_user_designed_flex_accuracy_binary": "14.78%",
+    "avg_user_designed_flex_accuracy_graded (>=4/5)": "24.32%",
+    "avg_learning_adherence_score": "1.82 / 5.0",
+    "retrieval_effectiveness_score (Precision)": "33.33%",
+    "retrieval_effectiveness_score (Recall)": "16.67%",
+    "retrieval_f1_score": "22.22%",
+    "retrieval_impact_analysis": {
+        "total_problems_with_retrieval": 86,
+        "analysis_threshold": "Adherence Score >= 3.5",
+        "quadrants": {
+            "high_adherence_correct (TP)": "3 (3.49%)",
+            "high_adherence_incorrect (FP)": "6 (6.98%)",
+            "low_adherence_correct (FN)": "15 (17.44%)",
+            "low_adherence_incorrect (TN)": "62 (72.09%)"
+        }
+    }
+}
