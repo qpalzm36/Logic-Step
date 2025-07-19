@@ -77,20 +77,20 @@ TEST_SET_PATH = "/data/yangcheng/aaai/test/test120/structured_test_set.jsonl"//�
 OUTPUT_LOG_PATH = "/data/yangcheng/aaai/results/inference_log_vllm_2stage_final_fixed_new_8.jsonl"//文件输出的位置 第173行</br>
 
 **8_run_inference_final_fixedaime.py**:</br>
-GENERATOR_MODEL_PATH = "/data/yangcheng/aaai/generator_finetuned/Qwen-2.5-3B-Instruct" //微调好的生成器存放位置 第168行</br>
-RETRIEVER_MODEL_PATH = "/data/yangcheng/aaai/retriever_finetuned" //微调好的编码器位置 第169行</br>
-KNOWLEDGE_BASE_DOCS_PATH = "/data/yangcheng/aaai/knowledgebase/knowledge_base_docs.jsonl" //存储知识库所有文档的jsonl文件位置 第170行</br>
-FAISS_INDEX_PATH = "/data/yangcheng/aaai/knowledgebase/faiss_index.bin"//存储Faiss索引的文件 第171行</br>
-TEST_SET_PATH = "/data/yangcheng/AIME/AIME_2020_2024_filtered.jsonl"//测试文件的存放位置 第172行</br>
-OUTPUT_LOG_PATH = "/data/yangcheng/aaai/resultsaime/inference_log_aimeqwen3B.jsonl"//文件输出的位置 第173行</br>
+GENERATOR_MODEL_PATH = "/data/yangcheng/aaai/generator_finetuned/Qwen-2.5-3B-Instruct" //微调好的生成器存放位置 第150行</br>
+RETRIEVER_MODEL_PATH = "/data/yangcheng/aaai/retriever_finetuned" //微调好的编码器位置 第151行</br>
+KNOWLEDGE_BASE_DOCS_PATH = "/data/yangcheng/aaai/knowledgebase/knowledge_base_docs.jsonl" //存储知识库所有文档的jsonl文件位置 第152行</br>
+FAISS_INDEX_PATH = "/data/yangcheng/aaai/knowledgebase/faiss_index.bin"//存储Faiss索引的文件 第153行</br>
+TEST_SET_PATH = "/data/yangcheng/AIME/AIME_2020_2024_filtered.jsonl"//测试文件的存放位置 第154行</br>
+OUTPUT_LOG_PATH = "/data/yangcheng/aaai/resultsaime/inference_log_aimeqwen3B.jsonl"//文件输出的位置 第155行</br>
 
 **8_run_inference_final_fixedGSM.py**:</br>
-GENERATOR_MODEL_PATH = "/data/yangcheng/aaai/generator_finetuned/Qwen-2.5-3B-Instruct" //微调好的生成器存放位置 第168行</br>
-RETRIEVER_MODEL_PATH = "/data/yangcheng/aaai/retriever_finetuned" //微调好的编码器位置 第169行</br>
-KNOWLEDGE_BASE_DOCS_PATH = "/data/yangcheng/aaai/knowledgebase/knowledge_base_docs.jsonl" //存储知识库所有文档的jsonl文件位置 第170行</br>
-FAISS_INDEX_PATH = "/data/yangcheng/aaai/knowledgebase/faiss_index.bin"//存储Faiss索引的文件 第171行</br>
-TEST_SET_PATH = "/data/yangcheng/gsm8k/main/sampled.jsonl" //测试文件的存放位置 第172行</br>
-OUTPUT_LOG_PATH = "/data/yangcheng/aaai/resultsGSM/inference_log_gsm8k.jsonl" //文件输出的位置 第173行</br>
+GENERATOR_MODEL_PATH = "/data/yangcheng/aaai/generator_finetuned/Qwen-2.5-3B-Instruct" //微调好的生成器存放位置 第137行</br>
+RETRIEVER_MODEL_PATH = "/data/yangcheng/aaai/retriever_finetuned" //微调好的编码器位置 第138行</br>
+KNOWLEDGE_BASE_DOCS_PATH = "/data/yangcheng/aaai/knowledgebase/knowledge_base_docs.jsonl" //存储知识库所有文档的jsonl文件位置 第139行</br>
+FAISS_INDEX_PATH = "/data/yangcheng/aaai/knowledgebase/faiss_index.bin"//存储Faiss索引的文件 第140行</br>
+TEST_SET_PATH = "/data/yangcheng/gsm8k/main/sampled.jsonl" //测试文件的存放位置 第141行</br>
+OUTPUT_LOG_PATH = "/data/yangcheng/aaai/resultsGSM/inference_log_gsm8k.jsonl" //文件输出的位置 第142行</br>
 
 **8_run_inference_final_fixedmath.py**:</br>
 GENERATOR_MODEL_PATH = "/data/yangcheng/aaai/generator_finetuned/Qwen-2.5-3B-Instruct" //微调好的生成器存放位置 第168行</br>
@@ -101,30 +101,88 @@ TEST_SET_PATH = "/data/yangcheng/MATH-500/test.jsonl" //测试文件的存放位
 OUTPUT_LOG_PATH = "/data/yangcheng/aaai/resultsmath/inference_log_vllm_math500.jsonl" //文件输出的位置 第173行</br>
 
 **8_run_inference_final_fixedllama2_7B.py**:</br>
-GENERATOR_MODEL_PATH = "/data/yangcheng/aaai/generator_finetuned/Llama-2-7b-chat-hf"//微调好的生成器存放位置 第168行</br>
+GENERATOR_MODEL_PATH = "/data/yangcheng/aaai/generator_finetuned/Llama-2-7b-chat-hf"//微调好的生成器存放位置 第98行</br>
+RETRIEVER_MODEL_PATH = "/data/yangcheng/aaai/retriever_finetuned"//微调好的编码器位置 第99行</br>
+KNOWLEDGE_BASE_DOCS_PATH = "/data/yangcheng/aaai/knowledgebase/knowledge_base_docs.jsonl"//存储知识库所有文档的jsonl文件位置 第100行</br>
+FAISS_INDEX_PATH = "/data/yangcheng/aaai/knowledgebase/faiss_index.bin"//存储Faiss索引的文件 第101行</br>
+TEST_SET_PATH = "/data/yangcheng/aaai/test/test120/structured_test_set.jsonl"//测试文件的存放位置 第102行 </br>
+OUTPUT_LOG_PATH = "/data/yangcheng/aaai/results/inference_log_vllm_llama2.jsonl"//文件输出的位置 第103行</br>
+**8_run_inference_final_fixedllama2_7Baime.py**:</br>
+GENERATOR_MODEL_PATH = "/data/yangcheng/aaai/generator_finetuned/Llama-2-7b-chat-hf"//微调好的生成器存放位置 第101行</br>
+RETRIEVER_MODEL_PATH = "/data/yangcheng/aaai/retriever_finetuned"//微调好的编码器位置 第102行</br>
+KNOWLEDGE_BASE_DOCS_PATH = "/data/yangcheng/aaai/knowledgebase/knowledge_base_docs.jsonl"//存储知识库所有文档的jsonl文件位置 第103行</br>
+FAISS_INDEX_PATH = "/data/yangcheng/aaai/knowledgebase/faiss_index.bin"//存储Faiss索引的文件 第104行</br>
+TEST_SET_PATH = "/data/yangcheng/AIME/AIME_2020_2024_filtered.jsonl"//测试文件的存放位置 第105行 </br>
+OUTPUT_LOG_PATH = "/data/yangcheng/aaai/resultsaime/inference_log_aime_llama2.jsonl"//文件输出的位置 第106行</br>
+**8_run_inference_final_fixedllama2_7BGSM.py**:</br>
+GENERATOR_MODEL_PATH = "/data/yangcheng/aaai/generator_finetuned/Llama-2-7b-chat-hf"//微调好的生成器存放位置 第115行</br>
+RETRIEVER_MODEL_PATH = "/data/yangcheng/aaai/retriever_finetuned"//微调好的编码器位置 第116行</br>
+KNOWLEDGE_BASE_DOCS_PATH = "/data/yangcheng/aaai/knowledgebase/knowledge_base_docs.jsonl"//存储知识库所有文档的jsonl文件位置 第117行</br>
+FAISS_INDEX_PATH = "/data/yangcheng/aaai/knowledgebase/faiss_index.bin"//存储Faiss索引的文件 第118行</br>
+TEST_SET_PATH = "/data/yangcheng/gsm8k/main/sampled.jsonl" //测试文件的存放位置 第119行 </br>
+OUTPUT_LOG_PATH = "/data/yangcheng/aaai/resultsGSM/inference_log_vllm_llama2_gsm8k.jsonl"//文件输出的位置 第120行</br>
+**8_run_inference_final_fixedllama2_7Bmath.py**:</br>
+GENERATOR_MODEL_PATH = "/data/yangcheng/aaai/generator_finetuned/Llama-2-7b-chat-hf"//微调好的生成器存放位置 第98行</br>
+RETRIEVER_MODEL_PATH = "/data/yangcheng/aaai/retriever_finetuned"//微调好的编码器位置 第99行</br>
+KNOWLEDGE_BASE_DOCS_PATH = "/data/yangcheng/aaai/knowledgebase/knowledge_base_docs.jsonl"//存储知识库所有文档的jsonl文件位置 第100行</br>
+FAISS_INDEX_PATH = "/data/yangcheng/aaai/knowledgebase/faiss_index.bin"//存储Faiss索引的文件 第101行</br>
+TEST_SET_PATH = "/data/yangcheng/MATH-500/test.jsonl" //测试文件的存放位置 第102行 </br>
+OUTPUT_LOG_PATH = "/data/yangcheng/aaai/resultsmath/inference_log_vllm_llama2_math500.jsonl"  //文件输出的位置 第103行</br>
+
+**8_run_inference_final_fixedllama3_8B.py**:</br>
+GENERATOR_MODEL_PATH = "/data/yangcheng/aaai/generator_finetuned/Meta-Llama-3-8B-Instruct"//微调好的生成器存放位置 第98行</br>
+RETRIEVER_MODEL_PATH = "/data/yangcheng/aaai/retriever_finetuned"//微调好的编码器位置 第99行</br>
+KNOWLEDGE_BASE_DOCS_PATH = "/data/yangcheng/aaai/knowledgebase/knowledge_base_docs.jsonl"//存储知识库所有文档的jsonl文件位置 第100行</br>
+FAISS_INDEX_PATH = "/data/yangcheng/aaai/knowledgebase/faiss_index.bin"//存储Faiss索引的文件 第101行</br>
+TEST_SET_PATH = "/data/yangcheng/aaai/test/test120/structured_test_set.jsonl"//测试文件的存放位置 第102行 </br>
+OUTPUT_LOG_PATH = "/data/yangcheng/aaai/results/inference_log_vllm_llama3.jsonl"//文件输出的位置 第103行</br>
+**8_run_inference_final_fixedllama3_8Baime.py**:</br>
+GENERATOR_MODEL_PATH = "/data/yangcheng/aaai/generator_finetuned/Meta-Llama-3-8B-Instruct"//微调好的生成器存放位置 第101行</br>
+RETRIEVER_MODEL_PATH = "/data/yangcheng/aaai/retriever_finetuned"//微调好的编码器位置 第102行</br>
+KNOWLEDGE_BASE_DOCS_PATH = "/data/yangcheng/aaai/knowledgebase/knowledge_base_docs.jsonl"//存储知识库所有文档的jsonl文件位置 第103行</br>
+FAISS_INDEX_PATH = "/data/yangcheng/aaai/knowledgebase/faiss_index.bin"//存储Faiss索引的文件 第104行</br>
+TEST_SET_PATH = "/data/yangcheng/AIME/AIME_2020_2024_filtered.jsonl"//测试文件的存放位置 第105行 </br>
+OUTPUT_LOG_PATH = "/data/yangcheng/aaai/resultsaime/inference_log_vllm_llama3_8B_aime.jsonl"//文件输出的位置 第106行</br>
+**8_run_inference_final_fixedllama3_8BGSM.py**:</br>
+GENERATOR_MODEL_PATH = "/data/yangcheng/aaai/generator_finetuned/Meta-Llama-3-8B-Instruct"//微调好的生成器存放位置 第108行</br>
+RETRIEVER_MODEL_PATH = "/data/yangcheng/aaai/retriever_finetuned"//微调好的编码器位置 第109行</br>
+KNOWLEDGE_BASE_DOCS_PATH = "/data/yangcheng/aaai/knowledgebase/knowledge_base_docs.jsonl"//存储知识库所有文档的jsonl文件位置 第110行</br>
+FAISS_INDEX_PATH = "/data/yangcheng/aaai/knowledgebase/faiss_index.bin"//存储Faiss索引的文件 第111行</br>
+TEST_SET_PATH = "/data/yangcheng/gsm8k/main/sampled.jsonl" //测试文件的存放位置 第112行 </br>
+OUTPUT_LOG_PATH = "/data/yangcheng/aaai/resultsGSM/gsm8k_inference_log_llama3.jsonl"//文件输出的位置 第113行</br>
+**8_run_inference_final_fixedllama3_8Bmath.py**:</br>
+GENERATOR_MODEL_PATH = "/data/yangcheng/aaai/generator_finetuned/Meta-Llama-3-8B-Instruct"//微调好的生成器存放位置 第104行</br>
+RETRIEVER_MODEL_PATH = "/data/yangcheng/aaai/retriever_finetuned"//微调好的编码器位置 第105行</br>
+KNOWLEDGE_BASE_DOCS_PATH = "/data/yangcheng/aaai/knowledgebase/knowledge_base_docs.jsonl"//存储知识库所有文档的jsonl文件位置 第106行</br>
+FAISS_INDEX_PATH = "/data/yangcheng/aaai/knowledgebase/faiss_index.bin"//存储Faiss索引的文件 第107行</br>
+TEST_SET_PATH = "/data/yangcheng/MATH-500/test.jsonl" //测试文件的存放位置 第108行 </br>
+OUTPUT_LOG_PATH = "/data/yangcheng/aaai/resultsmath/inference_log_vllm_llama3_math500.jsonl"  //文件输出的位置 第109行</br>
+
+**8_run_inference_final_fixedqwen7B.py**:</br>
+GENERATOR_MODEL_PATH = "/data/yangcheng/aaai/generator_finetuned/Qwen2.5-Math-7B-Instruct"//微调好的生成器存放位置 第168行</br>
 RETRIEVER_MODEL_PATH = "/data/yangcheng/aaai/retriever_finetuned"//微调好的编码器位置 第169行</br>
 KNOWLEDGE_BASE_DOCS_PATH = "/data/yangcheng/aaai/knowledgebase/knowledge_base_docs.jsonl"//存储知识库所有文档的jsonl文件位置 第170行</br>
 FAISS_INDEX_PATH = "/data/yangcheng/aaai/knowledgebase/faiss_index.bin"//存储Faiss索引的文件 第171行</br>
 TEST_SET_PATH = "/data/yangcheng/aaai/test/test120/structured_test_set.jsonl"//测试文件的存放位置 第172行 </br>
-OUTPUT_LOG_PATH = "/data/yangcheng/aaai/results/inference_log_vllm_llama2.jsonl"//文件输出的位置 第173行</br>
-**8_run_inference_final_fixedllama2_7Baime.py**:</br>
-GENERATOR_MODEL_PATH = "/data/yangcheng/aaai/generator_finetuned/Llama-2-7b-chat-hf"//微调好的生成器存放位置 第168行</br>
-RETRIEVER_MODEL_PATH = "/data/yangcheng/aaai/retriever_finetuned"//微调好的编码器位置 第169行</br>
-KNOWLEDGE_BASE_DOCS_PATH = "/data/yangcheng/aaai/knowledgebase/knowledge_base_docs.jsonl"//存储知识库所有文档的jsonl文件位置 第170行</br>
-FAISS_INDEX_PATH = "/data/yangcheng/aaai/knowledgebase/faiss_index.bin"//存储Faiss索引的文件 第171行</br>
-TEST_SET_PATH = "/data/yangcheng/AIME/AIME_2020_2024_filtered.jsonl"//测试文件的存放位置 第172行 </br>
-OUTPUT_LOG_PATH = "/data/yangcheng/aaai/resultsaime/inference_log_aime_llama2.jsonl"//文件输出的位置 第173行</br>
-**8_run_inference_final_fixedllama2_7BGSM.py**:</br>
-GENERATOR_MODEL_PATH = "/data/yangcheng/aaai/generator_finetuned/Llama-2-7b-chat-hf"//微调好的生成器存放位置 第168行</br>
-RETRIEVER_MODEL_PATH = "/data/yangcheng/aaai/retriever_finetuned"//微调好的编码器位置 第169行</br>
-KNOWLEDGE_BASE_DOCS_PATH = "/data/yangcheng/aaai/knowledgebase/knowledge_base_docs.jsonl"//存储知识库所有文档的jsonl文件位置 第170行</br>
-FAISS_INDEX_PATH = "/data/yangcheng/aaai/knowledgebase/faiss_index.bin"//存储Faiss索引的文件 第171行</br>
-TEST_SET_PATH = "/data/yangcheng/gsm8k/main/sampled.jsonl" //测试文件的存放位置 第172行 </br>
-OUTPUT_LOG_PATH = "/data/yangcheng/aaai/resultsGSM/inference_log_vllm_llama2_gsm8k.jsonl"//文件输出的位置 第173行</br>
-**8_run_inference_final_fixedllama2_7Bmath.py**:</br>
-GENERATOR_MODEL_PATH = "/data/yangcheng/aaai/generator_finetuned/Llama-2-7b-chat-hf"//微调好的生成器存放位置 第168行</br>
-RETRIEVER_MODEL_PATH = "/data/yangcheng/aaai/retriever_finetuned"//微调好的编码器位置 第169行</br>
-KNOWLEDGE_BASE_DOCS_PATH = "/data/yangcheng/aaai/knowledgebase/knowledge_base_docs.jsonl"//存储知识库所有文档的jsonl文件位置 第170行</br>
-FAISS_INDEX_PATH = "/data/yangcheng/aaai/knowledgebase/faiss_index.bin"//存储Faiss索引的文件 第171行</br>
-TEST_SET_PATH = "/data/yangcheng/MATH-500/test.jsonl" //测试文件的存放位置 第172行 </br>
-OUTPUT_LOG_PATH = "/data/yangcheng/aaai/resultsmath/inference_log_vllm_llama2_math500.jsonl"  //文件输出的位置 第173行</br>
+OUTPUT_LOG_PATH = "/data/yangcheng/aaai/results/inference_log_vllm_math7b.jsonl"//文件输出的位置 第173行</br>
+**8_run_inference_final_fixedqwen7Baime.py**:</br>
+GENERATOR_MODEL_PATH = "/data/yangcheng/aaai/generator_finetuned/Qwen2.5-Math-7B-Instruct"//微调好的生成器存放位置 第136行</br>
+RETRIEVER_MODEL_PATH = "/data/yangcheng/aaai/retriever_finetuned"//微调好的编码器位置 第137行</br>
+KNOWLEDGE_BASE_DOCS_PATH = "/data/yangcheng/aaai/knowledgebase/knowledge_base_docs.jsonl"//存储知识库所有文档的jsonl文件位置 第138行</br>
+FAISS_INDEX_PATH = "/data/yangcheng/aaai/knowledgebase/faiss_index.bin"//存储Faiss索引的文件 第139行</br>
+TEST_SET_PATH = "/data/yangcheng/AIME/AIME_2020_2024_filtered.jsonl"//测试文件的存放位置 第140行 </br>
+OUTPUT_LOG_PATH = "/data/yangcheng/aaai/resultsaime/inference_log_aimeqwen7b.jsonl"//文件输出的位置 第141行</br>
+**8_run_inference_final_fixedqwen7BGSM.py**:</br>
+GENERATOR_MODEL_PATH = "/data/yangcheng/aaai/generator_finetuned/Qwen2.5-Math-7B-Instruct"//微调好的生成器存放位置 第124行</br>
+RETRIEVER_MODEL_PATH = "/data/yangcheng/aaai/retriever_finetuned"//微调好的编码器位置 第125行</br>
+KNOWLEDGE_BASE_DOCS_PATH = "/data/yangcheng/aaai/knowledgebase/knowledge_base_docs.jsonl"//存储知识库所有文档的jsonl文件位置 第126行</br>
+FAISS_INDEX_PATH = "/data/yangcheng/aaai/knowledgebase/faiss_index.bin"//存储Faiss索引的文件 第127行</br>
+TEST_SET_PATH = "/data/yangcheng/gsm8k/main/sampled.jsonl" //测试文件的存放位置 第128行 </br>
+OUTPUT_LOG_PATH = "/data/yangcheng/aaai/resultsGSM/inference_log_gsm8k_qwen7b.jsonl"//文件输出的位置 第129行</br>
+**8_run_inference_final_fixedqwen7Bmath.py**:</br>
+GENERATOR_MODEL_PATH = "/data/yangcheng/aaai/generator_finetuned/Qwen2.5-Math-7B-Instruct"//微调好的生成器存放位置 第150行</br>
+RETRIEVER_MODEL_PATH = "/data/yangcheng/aaai/retriever_finetuned"//微调好的编码器位置 第151行</br>
+KNOWLEDGE_BASE_DOCS_PATH = "/data/yangcheng/aaai/knowledgebase/knowledge_base_docs.jsonl"//存储知识库所有文档的jsonl文件位置 第152行</br>
+FAISS_INDEX_PATH = "/data/yangcheng/aaai/knowledgebase/faiss_index.bin"//存储Faiss索引的文件 第153行</br>
+TEST_SET_PATH = "/data/yangcheng/MATH-500/test.jsonl" //测试文件的存放位置 第154行 </br>
+OUTPUT_LOG_PATH = "/data/yangcheng/aaai/resultsmath/inference_log_math500_qwen7b.jsonl"  //文件输出的位置 第155行</br>
