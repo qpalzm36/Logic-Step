@@ -4,8 +4,7 @@ Config:
 
 python=3.10
 
-pip install openai pandas jsonlines scikit-learn numpy
-
+pip install openai pandas jsonlines scikit-learn numpy</br>
 pip install accelerate matplotlib seaborn tqdm pyarrow
 
 pip install torch transformers sentence-transformers
