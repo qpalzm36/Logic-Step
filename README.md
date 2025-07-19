@@ -2,7 +2,7 @@
 code for AAAI
 Config:
 python=3.10
-pip install openai pandas jsonlines scikit-learn numpy
+pip install openai pandas jsonlines scikit-learn numpy \\
 pip install accelerate matplotlib seaborn tqdm pyarrow
 pip install torch transformers sentence-transformers
 pip install einops transformers_stream_generator
