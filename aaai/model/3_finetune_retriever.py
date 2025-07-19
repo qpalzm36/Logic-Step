@@ -50,7 +50,7 @@ class CustomTrainingArguments(TrainingArguments):
         metadata={"help": "模型checkpoint和最终模型的输出目录"}
     )
     num_train_epochs: float = field(default=10.0, metadata={"help": "训练的总轮数"})
-    per_device_train_batch_size: int = field(default=32, metadata={"help": "每个设备的训练批量大小"})
+    per_device_train_batch_size: int = field(default=128, metadata={"help": "每个设备的训练批量大小"})
     gradient_accumulation_steps: int = field(default=2, metadata={"help": "梯度累积步数"})
     learning_rate: float = field(default=1e-5, metadata={"help": "初始学习率"})
     warmup_ratio: float = field(default=0.1, metadata={"help": "学习率预热的比例"})
