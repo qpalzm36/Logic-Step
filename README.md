@@ -1,4 +1,7 @@
 # Logic-Step
+
+**RUN SH** nohup bash /data/yangcheng/run_pipeline.sh > pipeline.log 2>&1 &
+
 code for AAAI </br>
 **Config** </br>
 python=3.10 </br>
